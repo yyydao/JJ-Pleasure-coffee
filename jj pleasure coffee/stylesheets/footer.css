@@ -1,0 +1,18 @@
+#modules{
+
+    width: 960px;
+    margin: 2em auto;
+}
+#modules .inner{
+    margin: 2em 0;
+    text-align: center;
+    width: 240px;
+    float: left;
+}
+
+#colophon{
+    clear: both;
+    text-align: center;
+    border-top: 1px solid #fff8dc;
+    background: #9377BB;
+}

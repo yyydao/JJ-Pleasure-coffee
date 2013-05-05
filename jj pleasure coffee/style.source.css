@@ -1,0 +1,18 @@
+/*
+Theme Name: The Dao-1
+Theme URI: http://708fountain.com
+Description: For fountain
+Author: Dao
+Version: 0.8
+Tags: None
+
+*/
+@import "stylesheets/typo.css";
+@import "stylesheets/util.css";
+@import "stylesheets/header.css";
+@import "stylesheets/side.css";
+@import "stylesheets/main.css";
+@import "stylesheets/404.css";
+@import "stylesheets/comments.css";
+@import "stylesheets/layout.css";
+@import "stylesheets/footer.css";
