@@ -3,7 +3,8 @@
 =wp_theme 0.9.6 May 12 2013 =
 *Add "-" in the theme name,fix the w3c validation the url should not be have any space
 *Move the hgroup and div="hgroup" instead
-*index validated 
+*index validated
+*only update this folder
 
 = 1.4 - Jan 6 2012 =
 * The comments disabled notice should show up on posts and pages only if there are comments AND comments are disabled
