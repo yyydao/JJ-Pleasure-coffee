@@ -112,24 +112,25 @@ if ( ! function_exists( 'toolbox_header_style' ) ) :
     <style type="text/css">
         <?php if (get_header_image()){
             $header_image_width  = get_custom_header()->width;
-            $header_image_height = get_custom_header()->height;
             ?>
             #header>#hgroup{
-            background: url(<?php header_image(); ?>) no-repeat ;
-            max-width: <?php echo $header_image_width; ?>px;
-            height: <?php echo $header_image_height; ?>px;
+                background: url(<?php header_image(); ?>) no-repeat ;
+                max-width: <?php echo $header_image_width; ?>px;
+                height: auto;
+                background-size: contain;
+                background-position: center;
             }
         <?php } ?>
 
         <?php if ( ! display_header_text() ) : ?>
             #header h1, #header h2, #header h3  {
-            position: absolute !important;
-            clip: rect(1px 1px 1px 1px);
-            clip: rect(1px, 1px, 1px, 1px);
+                position: absolute !important;
+                clip: rect(1px 1px 1px 1px);
+                clip: rect(1px, 1px, 1px, 1px);
         }
         <?php   else : ?>
             #header h1 a, #header h2 a, #header h3{
-            color: #<?php echo get_header_textcolor(); ?>!important;
+                color: #<?php echo get_header_textcolor(); ?>!important;
         }
             <?php endif;  ?>
 

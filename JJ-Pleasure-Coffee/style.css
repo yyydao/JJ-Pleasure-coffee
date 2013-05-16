@@ -3,12 +3,13 @@ Theme Name: JJ Pleasure Coffee
 Theme URI: http://708fountain.com
 Description: For fountain
 Author: Dao
-Version: 0.9.6
+Version: 0.9.8.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: ACG
 
 */
+
 html{color:#555;background:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,group,menu,nav,section{margin:0;padding:0}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -74,15 +75,18 @@ h1,h2,h3,h4,h5,h6{font-weight:500;font-weight:800\9;color:#333}
 .topnav li:hover>ul{opacity:1;visibility:visible;background:#B4B48F}
 .topnav li li{float:none}
 .screen-reader-text,.assistive-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
-.menu{margin:0 auto;width:960px}
-#header h1{font-size:45px}
-#header h2{margin:0 0 .5em;color:#888;font-size:1em}
-#wrapper hgroup{width:960px;margin-bottom:2em}
+.menu{margin:0 auto;width:960px;width:68.571428571428571428571428571429rem}
+.header{max-width:960px;min-height:100%}
+#header h1{font-size:45px;font-size:3.2142857142857142857142857142857rem}
+#header h2{margin:0 0 .5em;margin:0 0 .5rem;padding-bottom:3.99%;color:#888;font-size:1em}
+#wrapper hgroup{width:960px;width:68.571428571428571428571428571429rem;margin-bottom:2em;m margin-bottom:2rem}
+.top{margin:0 auto;max-width:960px}
+.search_box{float:right;position:relative}
 #secondary h3{text-align:center}
 #secondary h3 a{color:#50B200}
 .block{background:#fff;border:1px solid #bbbeaf;border-radius:1em;box-shadow:0 0 4px #888}
-.entry-content{border-top:1px solid #322;padding:1em 0}
-.entry-meta{padding:.8em 0}
+.entry-content{border-top:1px solid #322;padding:1em 0;padding:1rem 0}
+.entry-meta{padding:.8em 0;padding:.8rem 0}
 .z404 .sun{margin:200px 0 50px 240px}
 .z404 p{font-size:2em;text-align:center}
 .z404 form{text-align:center}
@@ -145,15 +149,20 @@ ol.commentlist{margin:0}
 #commentform label{float:left;width:80px}
 #commentform .required{float:left;_display:inline;margin-left:-1em}
 *{margin:0;padding:0}
-body{background:#FCFFF3}
-#wrapper{width:960px;margin:0 auto;border:0 solid;overflow:hidden;clear:both}
-#primary{box-sizing:border-box;-moz-box-sizing:border-box;width:680px;float:left;background:#fafcfe;padding:10px 20px}
-#secondary{box-sizing:border-box;-moz-box-sizing:border-box;width:280px;float:left;background:#fffcf9;padding:10px 20px;border-left:#d3dbde solid 1px}
-#footbar{clear:both;background:#765F96;background-image:-moz-linear-gradient(center top,#B4B48F,#765F96 .8em);margin:.8em 0}
+html{font-size:14px}
+body{background:#FCFFF3;font-size:1rem}
+#wrapper{max-width:960px;max-width:68.571428571428571428571428571429rem;margin:0 auto;border:0 solid;overflow:hidden;clear:both}
+#primary{box-sizing:border-box;-moz-box-sizing:border-box;width:680px;width:48.571428571428571428571428571429rem;float:left;background:#fafcfe;padding:10px 20px;padding:.71428571428571428571428571428571rem 1.4285714285714285714285714285714rem}
+#secondary{box-sizing:border-box;-moz-box-sizing:border-box;width:280px;width:20rem;float:left;background:#fffcf9;padding:10px 20px;padding:.71428571428571428571428571428571rem 1.4285714285714285714285714285714rem;border-left:#d3dbde solid 1px}
+#footbar{clear:both;background:#765F96;background-image:-moz-linear-gradient(center top,#B4B48F,#765F96 .8em);margin:.8rem 0;width:100%}
 a{color:#6BA98F}
 a:hover{color:#50B200}
-#modules{width:960px;margin:2em auto}
-#modules .inner{margin:2em 0;text-align:center;width:240px;float:left}
-#colophon{clear:both;text-align:center;border-top:1px solid #fff8dc;background:#9377BB}
+#modules{max-width:960px;max-width:68.571428571428571428571428571429rem;margin:2em auto}
+#modules .inner{margin:2em 0;text-align:center;width:240px;width:17.142857142857142857142857142857rem;float:left}
+#colophon{clear:both;width:100%;text-align:center;border-top:1px solid #fff8dc;background:#9377BB}
+@media screen and (min-width:600px){#wrapper{margin:0 auto;max-width:960px;max-width:68.571428571428571428571428571429rem;overflow:hidden}
+#primary{width:70.833333%;float:left;padding:10px 20px;padding:.71428571428571428571428571428571rem 1.4285714285714285714285714285714rem}
+#secondary{width:29.166666667%;float:left;padding:10px 20px;padding:.71428571428571428571428571428571rem 1.4285714285714285714285714285714rem}
+#footbar{clear:both;margin:.8rem 0}}
 .post img{width:640px;max-width:100%}
-#CssGaga{content:"20130506154840,244"}
+#CssGaga{content:"20130516203356,244"}

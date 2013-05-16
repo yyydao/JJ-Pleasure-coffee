@@ -53,7 +53,6 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 <![endif]-->
-
 <?php wp_head(); ?>
 </head>
 
@@ -62,10 +61,22 @@
 <?php do_action( 'before' ); ?>
 
    	<nav class="topnav" role="navigation">
-			<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'toolbox' ); ?></h1>
-			<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'toolbox' ); ?>"><?php _e( 'Skip to content', 'toolbox' ); ?></a></div>
-    <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary'));  ?>
-
+           <div class="top">
+           <div class="menu_box">
+		<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'toolbox' ); ?></h1>
+		    <div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'toolbox' ); ?>"><?php _e( 'Skip to content', 'toolbox' ); ?></a></div>
+                <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary'));  ?>
+        </div>
+        <div class="search_box">
+           <form id="searchform" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+               <h4 class="assistive-text">Search-搜索</h4>
+               <div class="search-form">
+                   <span class="input_field"><input type="search" name="s" id="s" size="14" maxlength="30" placeholder="search" /></span>
+                   <span class="input_button"><input type="submit" name="submit" value="寻觅" /></span>
+               </div>
+           </form>
+        </div>
+           </div>
 	</nav><!-- #access -->
 <div id="wrapper" class="typo">
     <header id="header" class="header" role="banner">

@@ -24,14 +24,7 @@
                         echo $select;
                         ?>
                     </p>
-                    <h4>Search - 搜索本站</h4>
-                    <form id="searchform" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                        <div class="search-form">
-                            <span id="input_label"><label for="s">Search</label></span>
-                            <span id="input_field"><input type="text" name="s" id="s" size="14" maxlength="30" /></span>
-                            <span id="input_button"><input type="submit" name="submit" value="寻觅" /></span>
-                        </div>
-                    </form>
+
                 </div>
                 </section>
                 <section>

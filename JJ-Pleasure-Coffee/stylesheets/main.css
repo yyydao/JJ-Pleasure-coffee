@@ -1,0 +1,17 @@
+.block{
+    background: #ffffff;
+    border: 1px solid #bbbeaf;
+    border-radius: 1em;
+    box-shadow: 0 0 4px #888888;
+}
+.entry-content{
+    border-top: 1px solid #332222;
+    padding: 1em 0;
+    padding: 1rem 0;
+}
+.entry-meta{
+
+    padding: 0.8em 0;
+    padding: 0.8rem 0;
+}
+
